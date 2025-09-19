@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laser Creativo - Emprendimiento en Grabado Láser</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/Limitalimon.svg" class="logo-img"></a>
+                <h1></h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="video/hero.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <div class="hero-content">
+            <h2>Diseño y fabricación con láser</h2>
+            <p>Transformando ideas en realidades con tecnología de precisión</p>
+            <a href="#proyectos" class="btn">Ver mis trabajos</a>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+        <h2 class="section-title">Mis Proyectos</h2>
+        <div class="project-grid">
+            <!-- Los proyectos se cargarán dinámicamente con JavaScript -->
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Sobre mi emprendimiento</h2>
+                <p>Hola! Soy [Tu Nombre], empresario/a creativo/a especializado/a en grabado y corte láser. Cada pieza que creo es única y llevada a cabo con el máximo cuidado y atención al detalle.</p>
+                <p>Mi máquina láser me permite trabajar con diversos materiales como madera, acrílico, cuero y más, ofreciendo resultados precisos y profesionales para proyectos personales y comerciales.</p>
+                <div class="skills">
+                    <div class="skill">
+                        <i class="fas fa-ruler-combined"></i>
+                        <span>Diseño preciso</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-cut"></i>
+                        <span>Corte limpio</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-paint-brush"></i>
+                        <span>Grabado detallado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <video class="laser-video" autoplay muted loop>
+                    <source src="video/laser.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">¿Listo para empezar tu proyecto?</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Teléfono (opcional)">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                </div>
+                <div class="mod-btn">
+                    <button type="submit" class="btn">Enviar mensaje</button>
+                </div>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>acava@tuemail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+54 11xxxxxx</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Argentina, Buenos aires</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/limita.png" alt="logo" class="logo-limita">
+                    <h3>Limita Limon</h3>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2025 Pablo Beguerie. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
