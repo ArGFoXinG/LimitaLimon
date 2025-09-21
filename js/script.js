@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
             alt: "Mate tradicional con grabado láser en metal que dice 'Este mate es de mi abuela - Oleguita'. Producto personalizado para negocios locales."
         },
         {
-            title: "Joyero Artesanal",
-            description: "Joyero de madera con diseño moderno y detalles grabados con láser.",
+            title: "Elegancia grabada",
+            description: "Cada línea grabada cuenta una historia. Diseño artesanal para momentos especiales.",
             image: "img/imagen11.jpg",
-            tags: ["Madera", "Diseño", "Regalo"],
-            alt: "Tags acrílicos personalizados para mascotas con nombres grabados, en formas de hueso, corazón y rectángulo. Ideal para eventos y decoración."
+            tags: ["Moderno", "Diseño", "Regalo"],
+            alt: "Taza metálica con grabado láser de escudo y texto 'CLÁSICA TK', acompañada por caja de presentación con logo TK. Producto ideal como regalo artesanal."
         },
         {
             title: "Identidad para tus mascotas",
