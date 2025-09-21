@@ -2,60 +2,60 @@ document.addEventListener('DOMContentLoaded', function() {
     // Datos de proyectos (puedes reemplazar con tus proyectos reales)
     const projects = [
         {
-            title: "Letreros Personalizados",
-            description: "Diseño y fabricación de letreros en madera con grabado láser para negocios locales.",
+            title: "Grabados únicos en mates",
+            description: "Un homenaje en cada sorbo: diseño personalizado para recuerdos imborrables.",
             image: "img/mate.svg",
-            tags: ["Madera", "Grabado", "Comercial"],
-            alt: "Letrero de madera grabado con láser mostrando el logo de una cafetería"
+            tags: ["Acero", "Grabado", "Comercial"],
+            alt: "Mate tradicional con grabado láser en metal que dice 'Este mate es de mi abuela - Oleguita'. Producto personalizado para negocios locales."
         },
         {
             title: "Joyero Artesanal",
             description: "Joyero de madera con diseño moderno y detalles grabados con láser.",
             image: "img/imagen11.jpg",
             tags: ["Madera", "Diseño", "Regalo"],
-            alt: "Joyero de madera con tapa grabada con diseño geométrico"
+            alt: "Tags acrílicos personalizados para mascotas con nombres grabados, en formas de hueso, corazón y rectángulo. Ideal para eventos y decoración."
         },
         {
-            title: "Decoración para Eventos",
-            description: "Piezas decorativas para boda con nombres y fechas grabadas en acrílico.",
+            title: "Identidad para tus mascotas",
+            description: "Porque ellos también merecen un detalle especial. Grabamos su nombre, vos elegís el estilo.",
             image: "img/imagen2.jpeg",
-            tags: ["Acrílico", "Eventos", "Personalizado"],
-            alt: "Arreglo decorativo de boda con piezas de acrílico grabadas con láser"
+            tags: ["Único", "Moderno", "Personalizado"],
+            alt: "Tags acrílicos personalizados para mascotas con nombres grabados, en formas de hueso, corazón y rectángulo. Ideal para eventos y decoración."
         },
         {
-            title: "Porta-retratos Moderno",
-            description: "Porta-retratos de diseño minimalista con detalles grabados.",
+            title: "Diseño con Color",
+            description: "Porta-retratos que transforman la luz en arte. Cada color, una emoción en tu hogar.",
             image: "img/imagen9.jpg",
-            tags: ["Madera", "Fotos", "Hogar"],
-            alt: "Porta-retratos de madera con marco delgado y diseño grabado con láser"
+            tags: ["Madera", "Momentos", "Decoración"],
+            alt: "Porta-retratos de madera con acrílico teñido en colores vibrantes, diseño minimalista para decoración del hogar."
         },
         {
-            title: "Señalización Museística",
-            description: "Señalización informativa grabada en plástico de alta durabilidad.",
+            title: "Diseño con estilo",
+            description: "Un detalle que informa y sorprende. Ideal para lanzamientos, donaciones o reconocimientos.",
             image: "img/imagen8.jpg",
-            tags: ["Plástico", "Institucional", "Durable"],
-            alt: "Señalización de museo con información grabada en placa plástica"
+            tags: ["Resistente", "Calidad", "Único"],
+            alt: "Señal informativa grabada en plástico duradero con diseño ornamental, ideal para museos y espacios institucionales."
         },
         {
-            title: "Juego de Ajedrez",
-            description: "Tablero y piezas de ajedrez totalmente grabadas con detalles artísticos.",
+            title: "Tazas con Historia",
+            description: "Una taza, un gesto, un recuerdo. Personalizá tus momentos con diseño significativo.",
             image: "img/imagen5.jpeg",
-            tags: ["Madera", "Juego", "Artístico"],
-            alt: "Juego de ajedrez completo con tablero y piezas grabadas con láser"
+            tags: ["Obsequio", "Estetico", "Artístico"],
+            alt: "Taza blanca con grabado personalizado que incluye nombre, fecha y mensaje institucional. Regalo para eventos o grupos."
         },
         {
-            title: "Juego de Ajedrez",
-            description: "Tablero y piezas de ajedrez totalmente grabadas con detalles artísticos.",
+            title: "Invitación a tu medida",
+            description: "Dos iniciales, un año y un deseo grabados en metal. El regalo perfecto para compromisos y aniversarios.",
             image: "img/imagen6.jpg",
-            tags: ["Madera", "Juego", "Artístico"],
-            alt: "Juego de ajedrez completo con tablero y piezas grabadas con láser"
+            tags: ["Metal", "Celebrar", "Artístico"],
+            alt: "Taza metálica personalizada con iniciales y año grabado. Ideal para bodas, aniversarios o celebraciones especiales."
         },
         {
-            title: "Juego de Ajedrez",
-            description: "Tablero y piezas de ajedrez totalmente grabadas con detalles artísticos.",
+            title: "Celebrá tu Victoria",
+            description: "Tu logo, un mensaje y un año grabados en vidrio: el recuerdo perfecto para campeones.",
             image: "img/imagen7.jpg",
-            tags: ["Madera", "Juego", "Artístico"],
-            alt: "Juego de ajedrez completo con tablero y piezas grabadas con láser"
+            tags: ["Vidrio", "Diseños", "Artístico"],
+            alt: "Vaso de vidrio grabado con escudo 'CAB' y mensaje de felicitación. Producto personalizado para clubes y campeonatos."
         },
     ];
 
