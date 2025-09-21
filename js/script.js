@@ -19,14 +19,14 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Identidad para tus mascotas",
             description: "Porque ellos también merecen un detalle especial. Grabamos su nombre, vos elegís el estilo.",
             image: "img/imagen2.jpeg",
-            tags: ["Único", "Moderno", "Personalizado"],
+            tags: ["Único", "Acero", "Personalizado"],
             alt: "Tags acrílicos personalizados para mascotas con nombres grabados, en formas de hueso, corazón y rectángulo. Ideal para eventos y decoración."
         },
         {
             title: "Diseño con Color",
             description: "Porta-retratos que transforman la luz en arte. Cada color, una emoción en tu hogar.",
             image: "img/imagen9.jpg",
-            tags: ["Madera", "Momentos", "Decoración"],
+            tags: ["Madera", "Diseño", "Decoración"],
             alt: "Porta-retratos de madera con acrílico teñido en colores vibrantes, diseño minimalista para decoración del hogar."
         },
         {
