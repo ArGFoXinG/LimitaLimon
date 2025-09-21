@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: "Joyero Artesanal",
             description: "Joyero de madera con diseño moderno y detalles grabados con láser.",
-            image: "img/imagen1.jpeg",
+            image: "img/imagen11.jpg",
             tags: ["Madera", "Diseño", "Regalo"],
             alt: "Joyero de madera con tapa grabada con diseño geométrico"
         },
@@ -25,14 +25,14 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: "Porta-retratos Moderno",
             description: "Porta-retratos de diseño minimalista con detalles grabados.",
-            image: "img/imagen3.jpeg",
+            image: "img/imagen9.jpg",
             tags: ["Madera", "Fotos", "Hogar"],
             alt: "Porta-retratos de madera con marco delgado y diseño grabado con láser"
         },
         {
             title: "Señalización Museística",
             description: "Señalización informativa grabada en plástico de alta durabilidad.",
-            image: "img/imagen4.jpeg",
+            image: "img/imagen8.jpg",
             tags: ["Plástico", "Institucional", "Durable"],
             alt: "Señalización de museo con información grabada en placa plástica"
         },
@@ -46,14 +46,14 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: "Juego de Ajedrez",
             description: "Tablero y piezas de ajedrez totalmente grabadas con detalles artísticos.",
-            image: "img/mate.svg",
+            image: "img/imagen6.jpg",
             tags: ["Madera", "Juego", "Artístico"],
             alt: "Juego de ajedrez completo con tablero y piezas grabadas con láser"
         },
         {
             title: "Juego de Ajedrez",
             description: "Tablero y piezas de ajedrez totalmente grabadas con detalles artísticos.",
-            image: "img/mate.svg",
+            image: "img/imagen7.jpg",
             tags: ["Madera", "Juego", "Artístico"],
             alt: "Juego de ajedrez completo con tablero y piezas grabadas con láser"
         },
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-
+    /*
     // Formulario de contacto
     const contactForm = document.getElementById('contactForm');
     
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
             contactForm.reset();
         });
     }
-
+    */
     // Animaciones al hacer scroll
     window.addEventListener('scroll', function() {
         // Puedes agregar aquí efectos de aparición al hacer scroll
